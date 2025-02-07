@@ -9,7 +9,7 @@ MayoMate is a Python package designed to facilitate the discovery and visualizat
 - Conducting statistical comparisons between various mutants.
 MayoMate provides a toolkit for researchers and bioinformaticians working with yeast meiotic WGS data, aiding in the analysis and interpretation of meiotic mutagenesis data.
 
-![Pipeline](https://raw.githubusercontent.com/malkovalab/MayoMate/refs/heads/main/figures/resources/Meiotic%20Pipeline_new_bg.png?token=GHSAT0AAAAAAC6NHLICZ5G3IIFOMLN22FYQZ5GFZ4A)
+![Pipeline](figures/resources/Meiotic Pipeline_new_bg.png)
 
 ## Contributing
 We welcome contributions to MayoMate! If you would like to contribute, please follow these steps:
