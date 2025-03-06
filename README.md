@@ -55,6 +55,9 @@ In addition to the `main_playground_clean.ipynb` a few other standalone scripts 
 - `transcription_graph`: This script is used to create a graph summarizing sA3A mutation rates for tRNA and protein-coding genes.
 - `run_association_simulation_parallel.py`: This script is used to run association simulations between recombination events and mutation clusters on a computing cluster for parallel processing and faster results.
 
+### Data
+The data used in the `MayoMate` package is not provided in this repository. The data used in the `MayoMate` package is generated from Whole Genome Sequencing (WGS) data of Saccharomyces cerevisiae meiotic outcomes. The data is first processed using CLC Genomics Workbench 20 and then used as input for the `MayoMate` package to identify recombination events, mutations, and mutation clusters.
+Raw reads data can be found in the BioProject and the Sequence Read Archive (SRA) under the accession number PRJNA1225307
 
 ### Before you start
 Before you start using `MayoMate`, please make sure you have updated the `config.py` file with the correct paths to your input files and directories. The `config.py` file is located in the `MayoMate` directory. 
