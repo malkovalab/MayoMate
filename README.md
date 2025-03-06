@@ -13,7 +13,7 @@
 
 ## Requirements
 
-This package was developed and tested using Python 3.10.4. The following packages are required to run `MayoMate`:
+This package was developed and tested on a standard desktop computer with 16GB of RAM using Python 3.10.4. The following packages are required to run `MayoMate`:
 
 - `betterbeeswarm==0.2.0`
 - `bio-aid==0.3.1`
@@ -25,21 +25,21 @@ This package was developed and tested using Python 3.10.4. The following package
 - `scipy==1.8.1`
 - `seaborn==0.13.2`
 
-You can install these packages using the following command:
+You can install quckly these packages using the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Installation
-To install `MayoMate`, you can clone the repository and run the following command:
+To install `MayoMate`, you can clone this repository by running the command below. This step shouldn't take more than a few minutes depending on your internet connection.
 
 ```bash
 git clone https://github.com/malkovalab/MayoMate.git
 ```
 
 ## Usage
-To use `MayoMate`, please use the `main_playground_clean.ipynb` Jupyter notebook. This notebook provides a step-by-step guide on how to use `MayoMate`'s functions to help analyze and interpret meiotic mutagenesis yeast data. The outputs created by this notebook can be used for further downstream analysis and visualizations, for example, using scripts below.
+To use `MayoMate`, please use the `main_playground_clean.ipynb` Jupyter notebook. This notebook provides a step-by-step guide on how to use `MayoMate`'s functions to help analyze and interpret meiotic mutagenesis yeast data. The repository contains a small portion of the dataset used in the full study. You can use that data to test that you have properly configured your environment and that `MayoMate` is working properly. You can see example outputs from the reduced dataset and their compute times within the notebook and within the log files. The outputs created by this notebook can be used for further downstream analysis and visualizations, for example, using scripts below.
 
 In addition to the `main_playground_clean.ipynb` a few other standalone scripts are provided to help with specific tasks and post-processing of the outputs. These scripts are:
 - `cluster_analysis.py`: This script is used to conduct analysis on called mutation clusters and compare cluster statistics between different mutants.

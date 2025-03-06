@@ -1,2 +1,0 @@
-this is a placeholder file where the sequencing calls should be stored within 3 separate directories defined in config.py
-by default these are "Parents/haploid_final", "SNPs" and "SNVs"

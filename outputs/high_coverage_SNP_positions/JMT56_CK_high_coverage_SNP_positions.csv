@@ -1,0 +1,4 @@
+Chromosome,Region,Coverage,zygosity_from_freq,Coverage_norm,sample_name
+ref|NC_001145|,46032,86,Homozygous,2.1053913091176706,JMT56_CK
+ref|NC_001145|,46045,84,Homozygous,2.056428720533539,JMT56_CK
+ref|NC_001146|,752316,99,Heterozygous,2.423648134914528,JMT56_CK

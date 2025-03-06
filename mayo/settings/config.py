@@ -4,23 +4,22 @@
 sig = 'p001_def' # p05, p01, p005, p001_def, p0005, p0001 
 
 config: dict = {
-    "parents_path": "data/sequencing_calls/CombinedSet/Parents/haploid_final",
+
+    #make sure to update the paths to the correct ones
+    "parents_path": "data/sequencing_calls/CombinedSet/Parents",
     "parental_SNPs_path": "data/sequencing_calls/CombinedSet/SNPs",
     "SNVs_path": "data/sequencing_calls/CombinedSet/SNVs",
     "reference_fasta_path": "S288C_reference_sequencewoUra3wUra329wNAT.fa",
+
+    # do not change the following settings (unless you know what you are doing)
     "repetitive_regions_fasta_path": "data/other_features_genomic.fasta",
-    "cluster_table_path": rf"C:\Users\twaro\development\MayoSwitcher\TheMayoSwitcher\data\cluster_files\clusters_diff_thresholds\master_{sig}\1_master_para_bed_sorted_anz5.txt",
+    "cluster_table_path": "NA",
     "diploid": True,
     "mitochondrial_chr_name": ["ref|NC_001224|"],
     "SNP_NUM": 1,
-    "genotype_dict": "final_set", #or "1_master_para_bed_sorted_anz5.txt" (full)
-    
-    "CLUSTER_TYPE_ANALYSIS": "JT", # JT or PMACD,
+    "genotype_dict": "final_set",
+    "CLUSTER_TYPE_ANALYSIS": "JT",
     "SIG": 0.0001, # 0.01, 0.001, 0.0001, 0.00001
-
-    #CLUSTER_TYPE_ANALYSIS = "PMACD"
-    #SIG = 'p001_def' # p05, p01, p005, p001_def, p0005, p0001
-
     "CLUST_INTER_MUT_MAX": 10000,
     "mitochondrial_chr_name": ["ref|NC_001224|"],
     }
