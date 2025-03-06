@@ -9,7 +9,6 @@ This code is used to analyze the PMACD data. It is divided into three parts:
 import logging
 from mayo.settings import config_cluster as cfg_c
 from mayo.settings import genotype_dict as genotype_dict
-from mayo.clusters import create_clean_pmacd_input
 from mayo.clusters import create_combined_cluster_table
 from mayo.clusters import conduct_cluster_data_analysis
 
@@ -27,17 +26,8 @@ min_cluster_mutations = 3
 
 if __name__ == '__main__':
 
-    ## Part 1: Create clean pmacd input
-    FILTER_INPUT: bool = cfg_c["FILTER_INPUT"]
-    #remove poor quality data in create_clean_pmacd_input? What is poor quality data?
-    # create_clean_pmacd_input(
-    #     path = cfg_c["PATH"], 
-    #     max_duplicates = cfg_c["MAX_DUPLICATES"], 
-    #     save_master_file = cfg_c["SAVE_MASTER_FILE"], 
-    #     save_duplicates_file = cfg_c["SAVE_DUPLICATES_FILE"])
-
-    ## Part 2: Create combined cluster table
-    #make sure to change below function so that the right cluster association is read in
+    #### Part 1: Create combined cluster table
+    # make sure the right cluster association is read in if you are using GC or CO
     create_combined_cluster_table(
         cluster_caller = CLUSTER_CALLER, #JT or PMACD
         snp_num=SNP_NUM,
@@ -49,23 +39,9 @@ if __name__ == '__main__':
         min_cluster_mutations = min_cluster_mutations
         )
 
-    ## Part 3: Conduct cluster data analysis
-    # genotype_list = [
-        # 'ung1∆',
-        # "ung1∆NAT",
-        # "exo1-nd",
-        # "pol32∆",
-        # "exo1-ndpol32∆",
-        # 'UNG1',
-        # "ung1∆ EV",
-        # 'ung1∆ non-selected',
-        # 'ung1∆ premeiotic non-selected',
-        # 'inc. Tetrad ung1∆ non-selected',
-        # "spo13∆",
-        # "spo13∆spo11∆"
-        # ]
+    ### Part 2: Conduct cluster data analysis
 
-    #don't need genotypes_include, just specify the order
+    # just specify genotypes (their order) and the size of the plots (figsize)
 
     #order, figsize = ['ung1∆', "exo1-nd", "pol32∆", "exo1-ndpol32∆", "sgs1∆C", "exo1-ndsgs1∆C", "ung1∆NAT"], (8, 5) "ung1∆NAT",
     #order, figsize = ["inc. Tetrad ung1∆ non-selected",'ung1∆ premeiotic non-selected', 'UNG1', 'ung1∆ non-selected', 'ung1∆', "ung1∆NAT"], (10, 5) #For fig 1

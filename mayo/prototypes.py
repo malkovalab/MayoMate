@@ -444,8 +444,6 @@ def findTranscriptAndDirection(
 
     return df, df_features_summary
 
-#Null hypothesis simulations functions:
-
 def create_summary_null_df(simulation_pval_sample, min_clust_mutations = 3) -> pd.DataFrame:
     from numpy import NaN
 

@@ -789,23 +789,12 @@ genotype_dict = {
 
         ###########
         "SD1_Merg": "spo13∆ unselected (tet)", #spo13∆
-        #"SD2_CKDN": "SD2",
-        #"SD3_CKDN": "SD3",
-        #"SD4_CKDN": "SD4",
         "SD5_CKDN": "spo13∆ unselected (tet)", #spo13∆
-        #"SD6_CKDN": "SD6",
         "SD7_CKDN": "spo13∆ unselected (tet)", #spo13∆
         "SD8_CKDN": "spo13∆ unselected (tet)", #spo13∆
         "SD9_CKDN": "spo13∆ unselected (tet)", #spo13∆
-        #"SD10_Mer": "SD10",
         "SD11_Mer": "spo11∆ unselected (tet)", #spo11∆
-        #"SD12_CKD": "SD12",
-        #"SD13_CKD": "SD13",
-        #"SD14_Mer": "SD14",
-        #"SD15_Mer": "SD15",
         "SD16_CKD": "spo13∆ unselected (tet)", #spo13∆
-        #"SD17_CKD": "SD17",
-        #"SD18_Mer": "SD18",
 
         "JK3_P10_": "pol32∆",
         "JK3_P11_": "pol32∆",

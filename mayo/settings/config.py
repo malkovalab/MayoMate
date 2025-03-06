@@ -4,12 +4,8 @@
 sig = 'p001_def' # p05, p01, p005, p001_def, p0005, p0001 
 
 config: dict = {
-    # "parents_path": r"C:\Users\twaro\development\MayoSwitcher\TheMayoSwitcher\data\sequencing_calls\CombinedSet\Parents\haploid_final",
-    # "parental_SNPs_path": r"C:\Users\twaro\My Drive\Meiosis Project\CombinedSet\Switches",
-    # "SNVs_path": r"C:\Users\twaro\My Drive\Meiosis Project\CombinedSet\SNVs",
-    # "reference_fasta_path": r"C:\Users\twaro\development\MayoSwitcher\TheMayoSwitcher\S288C_reference_sequencewoUra3wUra329wNAT.fa",
     "parents_path": "data/sequencing_calls/CombinedSet/Parents/haploid_final",
-    "parental_SNPs_path": "data/sequencing_calls/CombinedSet/Switches",
+    "parental_SNPs_path": "data/sequencing_calls/CombinedSet/SNPs",
     "SNVs_path": "data/sequencing_calls/CombinedSet/SNVs",
     "reference_fasta_path": "S288C_reference_sequencewoUra3wUra329wNAT.fa",
     "repetitive_regions_fasta_path": "data/other_features_genomic.fasta",

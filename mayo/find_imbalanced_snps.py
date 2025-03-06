@@ -225,14 +225,14 @@ if __name__ == '__main__':
     genotype_dict = genotype_dict_master[cfg["genotype_dict"]]
 
     genotype_list = [
-    # "ung1∆",
-    # "UNG1",
-    # "ung1∆ non-selected",
-    # "exo1-nd",
-    # "pol32∆",
-    # "exo1-ndpol32∆",
-    "ung1∆NAT",
-    # "ung1∆ EV",
+        "ung1∆",
+        "UNG1",
+        "ung1∆ non-selected",
+        "exo1-nd",
+        "pol32∆",
+        "exo1-ndpol32∆",
+        "ung1∆NAT",
+        "ung1∆ EV",
     ]
 
     df_imbalanced_all = find_imbalanced_snps(

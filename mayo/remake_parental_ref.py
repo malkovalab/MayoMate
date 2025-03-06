@@ -7,8 +7,8 @@ import mayo.settings.config as cfg
 
 if __name__ == "__main__":
 
-    original_ref_path = '/content/S288C_reference_sequencewoUra3wUra329wNAT.fa'
-    new_ref_path =      '/content/S288C_reference_sequencewoUra3wUra329wNAT_mod2.fa'
+    original_ref_path = 'S288C_reference_sequencewoUra3wUra329wNAT.fa'
+    new_ref_path =      'S288C_reference_sequencewoUra3wUra329wNAT_mod2.fa'
 
     frames_list_parents = csvDataFrameImport(cfg.config["parents_path"], kind="parental")
     assert len(frames_list_parents) == 2, "There should be exactly 2 parents in the parents file"
