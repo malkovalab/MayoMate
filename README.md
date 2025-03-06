@@ -53,6 +53,7 @@ In addition to the `main_playground_clean.ipynb` a few other standalone scripts 
 - `SNP_dens_map.py`: This script is used to create a graph detailing distances between SNPs in the Parental Reference Genome.
 - `tracks.ipynb`: This Jupyter notebook is used to reconstruct the ssDNA tracks based on the identified recombination events, mutations, and mutation clusters. It also conducts statistical analysis on the ssDNA tracks between different mutants.
 - `transcription_graph`: This script is used to create a graph summarizing sA3A mutation rates for tRNA and protein-coding genes.
+- `run_association_simulation_parallel.py`: This script is used to run association simulations between recombination events and mutation clusters on a computing cluster for parallel processing and faster results.
 
 
 ### Before you start
