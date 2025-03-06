@@ -31,8 +31,6 @@ You can install these packages using the following command:
 pip install -r requirements.txt
 ```
 
-![Meiotic Pipeline_new_bg](https://github.com/user-attachments/assets/62bee6ce-a6d3-4793-94d5-b0d6fe9d154b)
-
 ## Installation
 To install `MayoMate`, you can clone the repository and run the following command:
 
@@ -54,6 +52,10 @@ In addition to the `main_playground_clean.ipynb` a few other standalone scripts 
 - `tracks.ipynb`: This Jupyter notebook is used to reconstruct the ssDNA tracks based on the identified recombination events, mutations, and mutation clusters. It also conducts statistical analysis on the ssDNA tracks between different mutants.
 - `transcription_graph`: This script is used to create a graph summarizing sA3A mutation rates for tRNA and protein-coding genes.
 - `run_association_simulation_parallel.py`: This script is used to run association simulations between recombination events and mutation clusters on a computing cluster for parallel processing and faster results.
+
+### MayoMate Pipeline Overview
+![Meiotic Pipeline_new_bg](https://github.com/user-attachments/assets/62bee6ce-a6d3-4793-94d5-b0d6fe9d154b)
+
 
 ### Data
 The data used in the `MayoMate` package is not provided in this repository. The data used in the `MayoMate` package is generated from Whole Genome Sequencing (WGS) data of Saccharomyces cerevisiae meiotic outcomes. The data is first processed using CLC Genomics Workbench 20 and then used as input for the `MayoMate` package to identify recombination events, mutations, and mutation clusters.
