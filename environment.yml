@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.4
+  - matplotlib=3.5.2
+  - natsort=8.3.1
+  - numpy=1.22.3
+  - pandas=1.4.2
+  - plotly=5.11.0
+  - scipy=1.8.1
+  - seaborn=0.13.2
+  - pip
+  - pip:
+    - betterbeeswarm==0.2.0
+    - bio-aid==0.3.1
