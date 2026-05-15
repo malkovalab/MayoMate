@@ -1,5 +1,6 @@
 # MayoMate
 [![DOI](https://zenodo.org/badge/927490229.svg)](https://doi.org/10.5281/zenodo.20195874)
+
 `MayoMate` is a Python package designed to facilitate analysis and interpretation of meiotic mutagenesis yeast data. `MayoMate` toolkit allows for discovery and visualization of recombination events, mutations, and mutation clusters in Whole Genome Sequencing (WGS) data of Saccharomyces cerevisiae meiotic outcomes. 
 
 `MayoMate` processes Illumina read alignments and variant calls from CLC Genomics Workbench 20 to identify high-confidence de novo SNVs and mutation clusters. It provides tools to create a Parental Reference Genome for calling parental SNPs using a single modified reference genome. `MayoMate`'s predefined classes store sample information, including SNVs, mutation clusters, parental SNPs, recombination events, sample names, and genotypes. These properties enable event classification, genomic feature correlation, hypermutable ssDNA estimation, mutation rate normalization, statistical analysis, and the creation of customized plots, summaries, and tables.
