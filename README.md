@@ -27,17 +27,25 @@ This package was developed and tested on a standard desktop computer with 16GB o
 - `scipy==1.8.1`
 - `seaborn==0.13.2`
 
-You can install quckly these packages using the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Installation
 To install `MayoMate`, you can clone this repository by running the command below. This step shouldn't take more than a few minutes depending on your internet connection.
 
 ```bash
 git clone https://github.com/malkovalab/MayoMate.git
+cd MayoMate
+```
+
+Then, install the required dependencies.
+
+### Installing with conda & pip (recommended)
+```bash
+conda env create -n mayomate -f environment.yml
+conda activate mayomate
+```
+
+### Installing with pip alone
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
